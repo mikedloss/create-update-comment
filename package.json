@@ -1,5 +1,5 @@
 {
-  "name": "create-or-update-pr-comment",
+  "name": "create-or-update-comment",
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {

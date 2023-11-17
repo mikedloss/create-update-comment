@@ -1,4 +1,4 @@
-name: 'Simply Create or Update Comment'
+name: 'Simple Create or Update Comment'
 description: 'A very simple action that creates a new comment on a pull request or commit, or updates the comment if it already exists'
 inputs:
   token:
