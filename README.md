@@ -21,7 +21,7 @@ the comment if it already exists.
 ## Example usage
 
 ```yaml
-uses: mikedloss/create-or-update-comment@v1
+uses: mikedloss/create-update-comment@v1
 with:
   token: ${{ secrets.GITHUB_TOKEN }}
   unique-identifier: "my-unique-identifier"
