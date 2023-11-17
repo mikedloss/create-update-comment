@@ -1,14 +1,14 @@
 name: 'Simple Create or Update Comment'
 description: 'A very simple action that creates a new comment on a pull request or commit, or updates the comment if it already exists'
 inputs:
+  message:
+    description: 'The comment body'
+    required: true
   token:
     description: 'Auth token used for a bot to create or update a comment'
     required: true
   unique-identifier:
     description: 'A unique identifier for the comment you want, hidden from the comment body'
-    required: true
-  message:
-    description: 'The comment body'
     required: true
 
 runs:
